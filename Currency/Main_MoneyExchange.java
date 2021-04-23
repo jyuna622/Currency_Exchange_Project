@@ -4,9 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Main_MoneyExchange {
-	public static void main(String[] args) throws IOException {
-		
-		
+	public static void main(String[] args) throws IOException {		
 		ExchangeType exType;
 		
 		ProcessingClass pc = new ProcessingClass();
@@ -45,50 +43,3 @@ public class Main_MoneyExchange {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

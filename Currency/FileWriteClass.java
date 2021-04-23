@@ -12,13 +12,13 @@ public class FileWriteClass {
 	
 	public FileWriteClass() {
 		try {
-			File file = new File ("C:\\Users\\kopo39\\Desktop\\Currency.csv");
+			File file = new File (Monet.File_Route);
 			if(file.exists() == false) {
 				isFileExist = false;
 			} else {
 				isFileExist = true;
 			}
-			fw = new FileWriter("C:\\Users\\kopo39\\Desktop\\Currency.csv", true);					
+			fw = new FileWriter(Monet.File_Route, true);					
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
